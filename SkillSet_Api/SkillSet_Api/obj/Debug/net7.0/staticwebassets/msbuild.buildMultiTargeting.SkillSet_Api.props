@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SkillSet_Api.props" />
+</Project>

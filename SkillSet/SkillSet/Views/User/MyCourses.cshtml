@@ -1,0 +1,52 @@
+﻿@model List<Course>
+
+@{
+    ViewData["Title"] = "MyCourses";
+    Layout = "~/Views/Shared/_UserDashboardLayout.cshtml";
+    var pageSize = ViewBag.PageSize;
+}
+<div class="coursepagecont">
+    <div style="display:flex; flex-direction:column; gap:1.5rem">
+
+        @foreach (var i in Model)
+        {
+            @await Html.PartialAsync("_courselist", i)
+
+        }
+    </div>
+    <br />
+    <br/> <br />
+    <br/>
+    <!-- Pagination -->
+    @if (ViewBag.TotalPages > 0)
+    {<div style="display:flex; gap:3px;">
+        <div class="pagingnum">
+            @for (int i = 1; i <= ViewBag.TotalPages; i++)
+            {
+                <a href="@Url.Action("MyCourses", new { userId = ViewBag.UserId, pageNumber = i, pageSize = ViewBag.PageSize })" class="page-link @(ViewBag.PageNumber == i ? "active" : "")">
+                    
+                        @if (ViewBag.PageNumber == i)
+                    {
+                        <div class="pagingnumcon">
+
+                            @i
+                        </div>
+                    }
+                    else
+                        {
+                        <div class="unpagingnumcon">
+
+                            @i
+                        </div>
+
+                        }
+                    
+                   </a>
+                
+            }
+        </div>
+    </div>
+
+    }
+
+</div>

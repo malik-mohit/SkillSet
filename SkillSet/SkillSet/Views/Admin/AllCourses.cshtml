@@ -1,0 +1,70 @@
+﻿@model List<Course>
+
+
+@{
+    ViewData["Title"] = "AllCourses";
+    Layout = "~/Views/Shared/_AdminDashboardLayout.cshtml";
+}
+<link href="https://cdn.datatables.net/v/dt/dt-1.13.4/datatables.min.css" rel="stylesheet" />
+
+<div class="coursetable">
+    <table id="datatableData" class="ctable">
+        <thead class="coursetablehead">
+            <tr>
+        <th>
+            Course Id
+        </th>
+        <th>
+            Course Name
+        </th>
+        <th>
+            Language
+        </th>
+        <th>
+            Level
+        </th>
+        <th>
+           Status
+        </th>
+            </tr>
+        </thead>
+        <tbody class="coursetablebody">
+
+        @foreach (var i in Model)
+        {
+           <tr>
+               <td>
+                   @i.CourseId
+               </td>
+                <td>
+                    @i.CourseName
+                </td>
+                <td>
+                    @i.Language
+                </td>
+                <td>
+                    @i.CourseLevel
+                </td>
+                <td>
+                    @i.Approved
+                </td>
+           </tr>
+
+        }
+        </tbody>
+
+    </table>
+</div>
+@*@section scripts{
+<script src="~/js/datatable_file.js"></script>
+}*@
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.datatables.net/v/dt/dt-1.13.4/datatables.min.js"></script>
+<script>
+    $(window).ready(function () {
+        $('#datatableData').DataTable({
+           
+        });
+    });
+</script>

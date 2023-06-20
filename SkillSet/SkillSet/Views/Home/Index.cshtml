@@ -1,0 +1,182 @@
+﻿@model List<Course>
+
+@{
+	ViewData["Title"] = "Home Page";
+}
+
+<div class="main">
+	<div class="banner">
+		<div class="sitecont">
+			<h1>Unleash Your Potential</h1>
+			<p>Embrace the transformative journey of lifelong learning, where free quality courses ignite the flame
+				of growth and skill enhancement.</p>
+			<a asp-action="Courses" asp-controller="User">
+				<button>View Courses</button>
+			</a>
+		</div>
+		
+	</div>
+
+	<div class="features">
+		<div class="featcontainer">
+			<div class="featcard">
+				<div class="featicon">
+					<div class="icondesign">
+
+
+						<div class="material-symbols-outlined-nf material-symbols-outlined">
+							schedule
+						</div>
+					</div>
+				</div>
+				<div class="featcontent">
+					<h3>Self-paced Courses</h3>
+					<p>
+						Embrace the freedom of learning at your own pace with our self-paced courses. We understand that everyone has
+						unique schedules, commitments, and preferred learning styles. That's why our platform offers the flexibility
+						to tailor your educational journey to your individual needs. Whether you're a busy professional, a full-time
+						student, or someone with a hectic lifestyle, our self-paced courses allow you to set the rhythm of your learning experience.
+					</p>
+				</div>
+			</div>
+			<div class="featcard">
+				<div class="featicon">
+					<div class="icondesign">
+
+						<div class="material-symbols-outlined-nf material-symbols-outlined">
+							view_module
+						</div>
+					</div>
+
+				</div>
+				<div class="featcontent">
+					<h3>Wide Range of Course Topics</h3>
+					<p>
+						Explore our vast collection of courses covering a wide range of topics to quench your thirst for learning.
+						From arts and humanities to sciences, business, technology, and beyond, we offer an extensive selection of
+						courses that cater to diverse interests and learning goals. Whether you're an aspiring artist, a budding
+						entrepreneur, a curious scientist, or simply seeking personal growth, our platform is your gateway to a world of knowledge.
+					</p>
+				</div>
+			</div>
+			<div class="featcard">
+				<div class="featicon">
+					<div class="icondesign">
+
+						<div class="material-symbols-outlined-nf material-symbols-outlined">
+							check_circle
+						</div>
+					</div>
+				</div>
+				<div class="featcontent">
+					<h3>High-Quality Content</h3>
+					<p>
+						We believe that education should be accessible to all without compromising on quality. That's why our courses are
+						thoughtfully curated by experts in their respective fields, ensuring that you receive accurate, up-to-date, and
+						reliable information.Whether it's through informative videos, comprehensive reading materials, interactive quizzes, or practical
+						examples, our content is meticulously created to provide you with a solid foundation of knowledge.
+					</p>
+				</div>
+			</div>
+			<div class="featcard">
+				<div class="featicon">
+					<div class="icondesign">
+
+						<div class="material-symbols-outlined-nf material-symbols-outlined">
+							hand_gesture
+						</div>
+					</div>
+				</div>
+				<div class="featcontent">
+					<h3>Interactive Learning Experience</h3>
+					<p>
+						Experience the thrill of interactive learning like never before! Our free courses offer an immersive and engaging learning
+						experience that goes beyond traditional textbooks and lectures. Get ready to dive into a world of interactivity, where you
+						can actively participate in your own education. Our courses are designed to captivate your curiosity, with interactive
+						exercises, quizzes, and simulations that challenge your understanding and reinforce key concepts.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+</div>
+<section id="aboutus">
+<div style="background-color:darkblue">
+	<div class="aboutusCont">
+		<div class="abouticon">
+			<span class="material-symbols-outlined material-symbols-outlined-cw" style="font-size:18rem">
+				group
+			</span>
+		</div>
+		<div class="aboutcontent">
+			<h1>About Us</h1>
+			<h2>
+				We are a community passionate about free, high-quality courses. Our dedicated educators and experts
+				curate diverse topics, ensuring valuable content and an engaging learning experience. Join us to access
+				quality education and embark on an enriching journey of continuous learning. Together, let's make education accessible to all.
+			</h2>
+		</div>
+	</div>
+</div>
+</section>
+<div class="coursecont">
+	<h3>New Courses</h3>
+	<div>
+
+		<div class="coursepagecont">
+			<div class="coursepagecont2">
+
+				@foreach (var i in Model.Take(4))
+				{
+					@await Html.PartialAsync("_courseitem", i)
+
+				}
+			</div>
+
+		</div>
+	</div>
+</div>
+<section id="contactus">
+
+<div style="background-color:darkblue; height:20rem;">
+	<div class="aboutusCont" style="width:59rem;">
+		
+		<div class="aboutcontent" >
+			<h1>Contact Us</h1>
+			<div class="contfield">
+				<h2>
+					Name
+				</h2>
+				<input type="text" placeholder="Enter Your Name" />
+			</div>
+			<div class="contfield">
+				<h2>
+					Email
+				</h2>
+				<input type="text" placeholder="Enter Your Email" />
+			</div >
+			<div class="contfield">
+				<h2>
+					Message
+				</h2>
+				<input type="text" placeholder="Enter Your Message" />
+			</div>
+			<br />
+			<div class="contfieldd">
+				<button>Submit</button>
+			</div>
+		</div>
+		<div class="abouticon">
+			<span class="material-symbols-outlined material-symbols-outlined-cw" style="font-size:18rem">
+				contact_support
+			</span>
+		</div>
+	</div>
+</div>
+
+</section>
+
+

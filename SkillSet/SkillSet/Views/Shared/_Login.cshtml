@@ -1,0 +1,51 @@
+﻿@model login
+
+<link rel="stylesheet" href="~/css/login.css" asp-append-version="true" />
+
+
+<div class="logincont">
+	<div class="loginimg">
+		<h1>1000+ Free Courses</h1>
+	</div>
+
+	<div class="loginform">
+		<div class="closebtn" onclick="Close()">
+			<h2>X</h2>
+		</div>
+
+		<div class="loginheading"><h1>Log in</h1></div>
+		<form asp-action="Login" asp-controller="Account" data-val="true" data-val-ajax="true">
+
+			<div class="formcont">
+				<div class="lbl">
+					<h3>Email</h3>
+					<input type="email" required placeholder="Enter your Email Address" asp-for="Email" />
+					<span asp-validation-for="Email"></span>
+
+				</div>
+				<div class="lbl">
+					<h3>Password</h3>
+					<input type="password" required placeholder="Enter your Password" asp-for="Password" />
+				<span asp-validation-for="Password"></span>
+
+				</div>
+
+				<button type="submit">Continue</button>
+			</div>
+		</form>
+	</div>
+</div>
+@section Scripts {
+	<script src="~/lib/jquery/dist/jquery.min.js"></script>
+	<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+	<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}
+<script>
+	function Close() {
+		var element = document.getElementById("popupform");
+		element.classList.add("hidden");
+	}
+
+
+</script>
+

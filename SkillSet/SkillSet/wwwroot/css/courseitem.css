@@ -1,0 +1,96 @@
+﻿body {
+}
+.material-symbols-outlined-nff {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48
+}
+.itemcont {
+    width: 342px;
+    box-shadow: 0px 5px 5px lightgrey;
+    height:277px;
+}
+.itemcont:hover
+{
+    background-color: #e1e1ee
+}
+.icocent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgcont img {
+    width: 341px;
+    height:189px;
+}
+
+.namecont {
+    font-family: Montserrat;
+    color:darkblue;
+    text-align:center;
+}
+
+.listcont {
+    display: flex;
+    box-shadow: 0px 5px 5px lightgrey;
+    width: 69rem;
+    gap: 2rem;
+    background-color: #e6f1f1;
+}
+
+    .listcont:hover {
+        background-color: #b9e9e9;
+    }
+
+.cont {
+    display: flex;
+    box-shadow: 0px 5px 5px lightgrey;
+    width: 54rem;
+    gap:18px;
+}
+.imgcont1 {
+    flex: 2;
+
+}
+    .imgcont1 img {
+        width: 341px;
+        height:189px;
+    }
+.namecont1 {
+    flex: 3;
+    font-family: Montserrat;
+    color: darkblue;
+}
+    .namecont1 h2 {
+        font-size: 30px;
+        margin: 10px;
+        margin-left: 1px
+    }
+
+    .namecont1 h4 {
+        margin-bottom: 2px;
+        font-size: 19px;
+    }
+
+.btncont {
+    flex: 1;
+    flex: 1;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cartbtn1 {
+    color: white;
+    font-family: Montserrat;
+    width: 10rem;
+    margin: auto;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 10px;
+    padding: 4px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: darkblue;
+}

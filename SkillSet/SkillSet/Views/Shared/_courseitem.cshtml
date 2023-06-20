@@ -1,0 +1,22 @@
+﻿@model Course
+<link rel="stylesheet" href="~/css/courseitem.css" asp-append-version="true" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+
+
+
+	<a style="text-decoration: none;" asp-action="CoursePage" asp-controller="User" asp-route-id="@Model.CourseId">
+		<div class="itemcont">
+
+			<div class="imgcont" >
+				<img src="data:image/png;base64,@Convert.ToBase64String(@Model.Imagedata)" alt="Course Image" />
+
+			</div>
+			<div class="namecont">
+				<h2>@Model.CourseName</h2>
+			</div>
+			
+		</div>
+
+	</a>
+
+

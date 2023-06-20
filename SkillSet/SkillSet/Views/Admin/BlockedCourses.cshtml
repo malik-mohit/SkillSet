@@ -1,0 +1,18 @@
+﻿@model List<Course>
+
+@{
+    ViewData["Title"] = "BlockedCourses";
+    Layout = "~/Views/Shared/_AdminDashboardLayout.cshtml";
+}
+
+<div class="coursepagecont">
+    <div style="display:flex; flex-direction:column; gap:1.5rem">
+
+        @foreach (var i in Model)
+        {
+            @await Html.PartialAsync("_courselist", i)
+
+        }
+    </div>
+
+</div>

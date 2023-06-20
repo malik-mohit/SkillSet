@@ -1,0 +1,53 @@
+﻿
+@model User
+
+<link rel="stylesheet" href="~/css/login.css" asp-append-version="true" />
+
+
+<div class="logincont">
+	<div class="signupimg">
+		<h1>
+			Join, Learn, Thrive
+		</h1>
+	</div>
+
+	<div class="loginform">
+		<div class="closebtn" onclick="Close()">
+			<h2>X</h2>
+		</div>
+
+		<div class="loginheading"><h1>Sign Up</h1></div>
+		<form asp-action="Register" asp-controller="Account">
+		<div class="formcont">
+				<div class="lbl">
+					<h3>Name</h3>
+					<input type="text" required placeholder="Enter your Name" asp-for="Name"/>
+					@Html.ValidationMessageFor(model =>model.Name, "", new { @class = "text-danger" })
+
+				</div>
+			<div class="lbl">
+				<h3>Email</h3>
+				<input type="email" required placeholder="Enter your Email Address" asp-for="Email"/>
+					@Html.ValidationMessageFor(model =>model.Email, "", new { @class = "text-danger" })
+
+			</div>
+			<div class="lbl">
+				<h3>Password</h3>
+				<input type="password" required placeholder="Enter your Password" asp-for="Password"/>
+					@Html.ValidationMessageFor(model =>model.Password, "", new { @class = "text-danger" })
+
+			</div>
+
+		  <button type="submit">Continue</button>
+		</div>
+		</form>
+	</div>
+</div>
+
+<script>
+	function Close() {
+		var element = document.getElementById("popupform");
+		element.classList.add("hidden");
+	}
+</script>
+

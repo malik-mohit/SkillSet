@@ -1,0 +1,294 @@
+body{
+    margin:0;
+    padding:0;
+    
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 48
+}
+
+.material-symbols-outlined-nf {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
+}
+
+.material-symbols-outlined-cw{
+    color:white;
+}
+.material-symbols-outlined-cb {
+    color: darkblue;
+}
+.navicon {
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+}
+
+.logo img {
+    margin-left: 171px;
+    height: 58px;
+}
+
+.conte {
+    display: flex;
+    gap: 2rem;
+    box-shadow: 0px 5px 5px lightgrey;
+}
+
+.logo{
+    flex:2;
+}
+.menu {
+    font-size: 1.3rem;
+    flex: 6;
+    font-family: Montserrat;
+}
+
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    align-item:center;
+    justify-content:center;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+    flex: 2;
+    gap: 1rem;
+    color: darkblue;
+    font-weight: 800;
+    font-family: Montserrat;
+   
+    gap: 10px;
+}
+
+    .account button {
+        font-size: 1rem;
+        border: none;
+        padding: 0.6rem;
+        width: 6rem;
+        border-radius: 5px;
+        font-family: Montserrat;
+    }
+
+    .loginbtn{
+        background-color:lightblue;
+         }
+.loginbtn:hover{
+    background-color: darkblue;
+    color:white;
+}
+
+.signupbtn {
+    background-color: darkblue;
+    color: white;
+}
+.signupbtn:hover {
+    background-color: lightblue;
+    color: black;
+}
+
+.main{
+    position:relative;
+    height:62rem;
+}
+.banner {
+    height:42rem;
+    width:100%;
+    background-image: url("../assets/banner.jpg");
+    position:absolute;
+}
+
+.sitecont {
+    color: white;
+    font-family: Montserrat;
+    margin-left: 9rem;
+    margin-top: 3rem;
+    margin-right: 57rem
+}
+
+    .sitecont h1{
+        font-size:5.5rem;
+    }
+    .sitecont p {
+        font-size: 1.5rem;
+    }
+    .sitecont button {
+        background-color: aliceblue;
+        color: darkblue;
+        font-size: 2rem;
+        padding: 8px;
+        border-radius: 9px;
+    }
+
+.features {
+    width: 100%;
+    height: 200px;
+    margin-top: 34rem;
+    position: absolute;
+}
+.featcontainer {
+    display: flex;
+    width: 96rem;
+    margin: auto;
+    justify-content: space-between;
+}
+.featcard{
+    background-color: white;
+    height:27.3rem;
+    width:21rem;
+    box-shadow:3px 3px lightgrey;
+    border: 1px solid lightgrey;
+}
+
+.featicon {
+    height: 7rem;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.featcontent {
+    text-align: center;
+    font-family: Montserrat;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.icondesign {
+    border-radius: 50%;
+    height: 6rem;
+    width: 6rem;
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    
+}
+
+    .icondesign div {
+        font-size: 6rem;
+    }
+
+.coursecont {
+    height:370px;
+}
+
+    .coursecont h3 {
+        margin-left: 215px;
+        font-size: 25px;
+        color: darkblue;
+        font-family: Montserrat;
+    }
+
+.aboutusCont {
+    height: 273px;
+    display:flex;
+    margin:auto;
+    width:96rem;
+    gap:13rem;
+}
+
+.abouticon{
+    margin-left:2rem;
+}
+
+.aboutcontent {
+    height: 17rem;
+    width: 62rem;
+    font-family: Montserrat;
+    color:white;
+}
+.menu a{
+    text-decoration:none;
+    
+}
+
+.popupform {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    z-index: 99999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hidden {
+    visibility: collapse;
+}
+
+.coursepagecont{
+    width:92rem;
+    margin:auto;
+    height:56rem;
+}
+
+.coursepagecont2 {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.foot {
+    background-color: black;
+    color: white;
+    font-family: Montserrat;
+    padding: 30px;
+    margin-top: 10px;
+}
+.contfield h2 {
+    margin: 2px;
+    font-size: 19px;
+    margin-top:9px;
+}
+.contfield input {
+    width: 26rem;
+    font-size: 16px;
+    border-radius: 7px;
+    padding: 2px;
+}
+.contfieldd {
+    width: 14rem;
+    margin:auto;
+}
+.contfieldd button {
+    background-color: white;
+    font-family: Montserrat;
+    color: darkblue;
+    border-radius: 5px;
+    width: 14rem;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.footmenu {
+    font-size: 1.1rem;
+    font-family: Montserrat;
+}
+.footmenu a {
+    color: white;
+    text-decoration: none;
+}
+.foot h1{
+    margin-top:0px;
+}
+.footmenu ul {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    align-item: center;
+    justify-content: center;
+}

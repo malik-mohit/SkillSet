@@ -1,0 +1,86 @@
+﻿@model Course
+
+@{
+    ViewData["Title"] = "UploadCourse";
+    Layout = "~/Views/Shared/_UserDashboardLayout.cshtml";
+}
+@using System.Security.Claims
+
+@{
+    var user = Context.User;
+        var userid = user.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
+    var roleclaim = user.FindFirst(ClaimTypes.Role)?.Value;
+    var nameclaim = user.FindFirst(ClaimTypes.Name)?.Value;
+}
+<div class="uploadcont">
+<form asp-action="UploadCourse" asp-controller="User" enctype="multipart/form-data">
+        <input type="hidden" value="@userid" asp-for="UserId"/>
+
+<div class="fieldcont">
+    <h2>Name</h2>
+    <input type="text" placeholder="Enter Course title" asp-for="CourseName"/>
+</div>
+        <div class="fieldcont">
+    <h2>Description</h2>
+    <input type="text" maxlength="100" minlength="10" placeholder="Enter Course Description" asp-for="Description" />
+</div>
+        <div class="fieldcont">
+            <h2>Duration</h2>
+    <input type="text" placeholder="Enter Course Duration" asp-for="Duration"/>
+</div>
+        <div class="fieldcont">
+    <h2>Language</h2>
+    <select asp-for="Language">
+                <option value="none" selected disabled hidden>Select an Option</option>
+
+        <option name="English">English</option>
+        <option name="Hindi">Hindi</option>
+    </select>
+</div>
+        <div class="fieldcont">
+    <h2>Course Level</h2>
+    <select asp-for="CourseLevel">
+                <option value="none" selected disabled hidden>Select an Option</option>
+
+        <option name="Begginer">Begginer</option>
+        <option name="Intermediate">Intermediate</option>
+        <option name="Advanced">Advanced</option>
+    </select>
+</div>
+        <div class="fieldcont">
+    <h2>Thumbnail</h2>
+    <input type="file" asp-for="Image" />
+</div>
+        <div class="fieldcont">
+        <h2>Video</h2>
+        <input type="file" asp-for="Video" />
+    </div>
+    <br />
+    <div class="uploadbtn">
+        <button type="submit">Upload</button>
+    </div>
+</form>
+<div>
+
+    @{
+        try
+        {
+            @if (ViewBag.msg != null)
+            {
+                <label> @ViewBag.msg</label>
+
+            }
+        }
+
+        catch
+        {
+            @if (ViewBag.msg != null)
+            {
+                <label> @ViewBag.msg</label>
+            }
+        }
+    }
+</div>
+</div>
+

@@ -1,0 +1,212 @@
+﻿body {
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration:none;
+}
+
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48
+}
+
+
+.material-symbols-outlined-cw {
+    color: white;
+}
+.material-symbols-outlined-cb {
+    color: darkblue;
+}
+.dashboardcont {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.sidebar {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #121250;
+}
+
+.rightside {
+    flex: 4;
+}
+.dashboardhead {
+    height: 4rem;  
+    display: flex;   
+    box-shadow: 0px 5px 5px lightgrey;
+}
+.head {
+    font-family: Montserrat;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+    .head h1{
+        color:darkblue;
+    }
+
+.home {
+    color: darkblue;
+    margin-left: 69rem;
+    font-weight:800;
+    font-family: Montserrat;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+    .logo {
+        height: 4rem;
+    }
+
+.profile {
+    height: 13rem;
+    display:flex;
+    flex-direction:column;
+}
+.menu {
+    height: 19rem;
+    display:flex;
+    flex-direction:column;
+    padding:2rem;
+    gap:5px;
+}
+
+.profilepic {
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .profilepic img{
+        height:9rem;
+        width:9rem;
+        border-radius:50%;
+        border:3px solid blue;
+
+    }
+.profilename {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    color:white;
+    font-family: Montserrat;
+}
+
+.section {
+    color: white;
+    font-family: Montserrat;
+    display: flex;
+    align-items: center;
+   gap:10px;
+   margin-left:2rem;
+   height:49px;
+}
+
+.coursepagecont {
+    width: 92rem;
+    margin: auto;
+}
+
+.coursepagecont2 {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.uploadcont {
+    margin: auto;
+    font-family: Montserrat;
+    color: darkblue;
+    width: 35.5rem;
+}
+
+.fieldcont input {
+    width: 35rem;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    color: black;
+}
+
+.fieldcont h2{
+    margin:6px;
+    margin-top:23px;
+
+}
+
+.fieldcont select {
+    width: 35rem;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    color: black;
+}
+
+.uploadbtn{
+width: 18rem;
+margin: auto;
+}
+.uploadbtn button{
+    width: 17rem;
+    margin: auto;
+    background-color: darkblue;
+    color: white;
+    border-radius: 7px;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.coursetable {
+    width: 80rem;
+    margin: auto;
+    margin-top:60px;
+}
+.ctable {
+    color: white;
+    font-family: Montserrat;
+}
+
+.coursetablehead {
+    background-color: darkblue;
+    font-size: 22px;
+}
+
+
+.coursetablebody {
+    background-color: #5f5fd1;
+    font-size: 19px;
+}
+
+.pagingnum{
+    display:flex;
+    gap:2px
+}
+
+.pagingnumcon {
+    font-size: 23px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkblue;
+    color: white;
+}
+
+.unpagingnumcon:hover{
+    background-color:darkblue;
+    color:white;
+}
+.unpagingnumcon {
+    font-size: 23px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,79 @@
+﻿body {
+}
+
+.logincont {
+    height: 34rem;
+    width: 66rem;
+    background-color: aliceblue;
+    border-radius: 20px;
+    display:flex;
+
+}
+
+.loginimg {
+    background-image: url("/assets/login.jpeg");
+    flex: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    .loginimg h1 {
+        font-size: 4rem;
+        color: white;
+        font-family: Montserrat;
+        margin-left: 6rem
+    }
+
+.signupimg {
+    background-image: url("/assets/signup.jpeg");
+    flex: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    .signupimg h1 {
+        font-size: 5rem;
+        color: white;
+        font-family: Montserrat;
+        margin-left: 6rem
+    }
+    .closebtn {
+        float: right;
+        margin-right: 2rem
+    }
+
+.closebtn :hover{
+    cursor:pointer;
+}
+.loginform {
+    flex: 1;
+    font-family: Montserrat;
+    text-align: center;
+}
+
+.loginheading {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+}
+
+.formcont {
+    margin-top: 3rem;
+}
+
+.lbl input {
+    font-size: 15px;
+    font-family: Montserrat;
+    border-radius: 10px;
+    padding: 7px;
+    width: 19rem;
+}
+
+.formcont button {
+    font-size: 1.5rem;
+    width: 16rem;
+    margin-top: 3rem;
+    background-color: darkblue;
+    color: white;
+    border-radius: 10px;
+    height: 3rem;
+}
+
+   

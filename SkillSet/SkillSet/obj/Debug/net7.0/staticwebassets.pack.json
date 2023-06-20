@@ -1,0 +1,365 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\SkillSet.bundle.scp.css",
+      "PackagePath": "staticwebassets\\SkillSet.bundle.scp.css"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\assets\\aboutus.png",
+      "PackagePath": "staticwebassets\\assets\\aboutus.png"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\assets\\banner.jpg",
+      "PackagePath": "staticwebassets\\assets\\banner.jpg"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\assets\\login.jpeg",
+      "PackagePath": "staticwebassets\\assets\\login.jpeg"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\assets\\profile.jpeg",
+      "PackagePath": "staticwebassets\\assets\\profile.jpeg"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\assets\\signup.jpeg",
+      "PackagePath": "staticwebassets\\assets\\signup.jpeg"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\assets\\skillsetlogo.png",
+      "PackagePath": "staticwebassets\\assets\\skillsetlogo.png"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\assets\\skillsetlogoo.png",
+      "PackagePath": "staticwebassets\\assets\\skillsetlogoo.png"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\css\\courseitem.css",
+      "PackagePath": "staticwebassets\\css\\courseitem.css"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\css\\coursepage.css",
+      "PackagePath": "staticwebassets\\css\\coursepage.css"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\css\\dashboard.css",
+      "PackagePath": "staticwebassets\\css\\dashboard.css"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\datatables\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\datatables\\jquery.dataTables.js"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\datatables\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\datatables\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\images\\533df8e0-a2ba-47e1-bf2a-d95941546618.png",
+      "PackagePath": "staticwebassets\\images\\533df8e0-a2ba-47e1-bf2a-d95941546618.png"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\images\\60c1a1ce-66cd-4722-812b-32e138c567da.png",
+      "PackagePath": "staticwebassets\\images\\60c1a1ce-66cd-4722-812b-32e138c567da.png"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\images\\94762c35-2649-4771-a38c-cd29fcee8aa5.png",
+      "PackagePath": "staticwebassets\\images\\94762c35-2649-4771-a38c-cd29fcee8aa5.png"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\images\\b2420675-f038-422c-ba72-4fdc2cd68b3f.png",
+      "PackagePath": "staticwebassets\\images\\b2420675-f038-422c-ba72-4fdc2cd68b3f.png"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\images\\ddd4dd88-1afa-44db-b16a-a3d9417c3a8e.png",
+      "PackagePath": "staticwebassets\\images\\ddd4dd88-1afa-44db-b16a-a3d9417c3a8e.png"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\images\\ea19a017-a80d-4cc3-bb8b-724535165e8e.png",
+      "PackagePath": "staticwebassets\\images\\ea19a017-a80d-4cc3-bb8b-724535165e8e.png"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\js\\datatable_file.js",
+      "PackagePath": "staticwebassets\\js\\datatable_file.js"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "F:\\cs\\SkillSet\\SkillSet\\wwwroot\\videos\\25028551-26cb-4742-9eec-48c3eaf11046.jpeg",
+      "PackagePath": "staticwebassets\\videos\\25028551-26cb-4742-9eec-48c3eaf11046.jpeg"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.SkillSet.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.SkillSet.props",
+      "PackagePath": "build\\SkillSet.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.SkillSet.props",
+      "PackagePath": "buildMultiTargeting\\SkillSet.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.SkillSet.props",
+      "PackagePath": "buildTransitive\\SkillSet.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
